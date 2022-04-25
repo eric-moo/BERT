@@ -3,7 +3,7 @@ from transformers import *
 from tokenizers import *
 import os
 import json
-print("hi")
+
 dataset = load_dataset('onestop_english', 'default', split="train")
 
 # split the dataset into training (90%) and testing (10%)
